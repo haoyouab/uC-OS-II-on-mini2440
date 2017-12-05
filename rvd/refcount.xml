@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE REFCOUNTLIST SYSTEM 'http://www.arm.com/warehouse/warehouse-11.dtd'>
+
+<REFCOUNTLIST parentdirs="C:\Program Files\ARM\project_templates\Bare ARM Cores">
+    <REFCOUNTENTRY target="rvdebug.aws">
+        <REFCOUNTREFERENCE deref-context-vars="0" source="Bare ARM Cores\_arm920t\rvd\rvdebug.aws" warehouse="C:\Program Files\ARM">
+            <PRODUCT category="RVDS" name="Projects" rev="17" version="4.0">
+                <PATTERN>
+                    <MATCH>
+                        <VAR n="platform" v="all-all"/>
+                        <VAR n="regime" v="rel"/>
+                    </MATCH>
+                </PATTERN>
+            </PRODUCT>
+        </REFCOUNTREFERENCE>
+    </REFCOUNTENTRY>
+    <REFCOUNTENTRY target="rvdebug.brd">
+        <REFCOUNTREFERENCE deref-context-vars="0" source="Bare ARM Cores\_arm920t\rvd\rvdebug.brd" warehouse="C:\Program Files\ARM">
+            <PRODUCT category="RVDS" name="Projects" rev="17" version="4.0">
+                <PATTERN>
+                    <MATCH>
+                        <VAR n="platform" v="all-all"/>
+                        <VAR n="regime" v="rel"/>
+                    </MATCH>
+                </PATTERN>
+            </PRODUCT>
+        </REFCOUNTREFERENCE>
+    </REFCOUNTENTRY>
+    <REFCOUNTENTRY target="RVISS_3.auc">
+        <REFCOUNTREFERENCE deref-context-vars="0" source="Bare ARM Cores\_arm920t\rvd\RVISS_3.auc" warehouse="C:\Program Files\ARM">
+            <PRODUCT category="RVDS" name="Projects" rev="17" version="4.0">
+                <PATTERN>
+                    <MATCH>
+                        <VAR n="platform" v="all-all"/>
+                        <VAR n="regime" v="rel"/>
+                    </MATCH>
+                </PATTERN>
+            </PRODUCT>
+        </REFCOUNTREFERENCE>
+    </REFCOUNTENTRY>
+</REFCOUNTLIST>
+

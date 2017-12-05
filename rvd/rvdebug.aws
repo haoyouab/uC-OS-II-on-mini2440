@@ -1,0 +1,91 @@
+[DEBUGGER] 
+[CODE] 
+[INCLUDE] ?$RVDEBUG_HOME/rvdebug.ini\\$RVDEBUG_HOME/rvdebug.ini
+[CONNECT=ARM920T@RVISS] 0
+[WINDOW=Code] 
+iconic=0
+xpos=0x0064
+ypos=0x0064
+height=0x0338
+width=0x0438
+alt_height=0x000B
+value=0
+dock_content="Process Control"
+dock_data="Process Control:2:0:0:0:0:360:250:1:1"
+dock_win={:\
+}
+dock_content="Call Stack"
+dock_data="Call Stack:3:0:0:0:0:360:206:1:1"
+dock_win={:\
+char_pointer=As_Value:\
+}
+dock_content="Watch"
+dock_data="Watch:3:0:1:360:0:360:206:1:1"
+dock_win={:\
+char_pointer=As_Value:\
+History={$@ARM920T:ARM-A-SW$#0x00}:\
+}
+dock_content="DockForMultipleView"
+dock_data="Memory:3:0:2:720:0:360:206:1:0"
+dock_win={:\
+dock_contains_view="Memory=Memory":\
+dock_view_config_string="1:AsciiViewShown=1:Columns=0:DataSizeId=3:\
+	DsmFormatId=0:FormatId=0:TargetAddress_0=:TargetAddress_1=:\
+	TargetName_0=@ARM920T#ARM-A-SW:TargetName_1=@ARM920T#ARM-A-SW:":\
+}
+dock_content="Output"
+dock_data="Output:3:1:3:0:206:360:206:1:1"
+dock_win={:\
+}
+dock_content="tbar_File"
+dock_data="0:0:0:0:0:0:87:24:"
+dock_win={:\
+}
+dock_content="tbar_Edit"
+dock_data="0:1:87:0:0:0:81:24:"
+dock_win={:\
+}
+dock_content="tbar_Debug"
+dock_data="0:2:168:0:0:0:203:24:"
+dock_win={:\
+}
+dock_content="tbar_Image"
+dock_data="0:3:371:0:0:0:59:24:"
+dock_win={:\
+}
+dock_content="tbar_Connect"
+dock_data="0:4:430:0:0:0:149:24:"
+dock_win={:\
+}
+dock_content="tbar_Find"
+dock_data="0:5:579:0:0:0:457:24:"
+dock_win={:\
+}
+dock_content="tbar_Scripts"
+dock_data="0:6:0:24:0:0:348:24:"
+dock_win={:\
+}
+[WINDOW=Connection Control] 
+iconic=0
+xpos=0
+ypos=0x029A
+height=0x0140
+width=0x01F4
+show_advanced=0
+visible=0
+
+[Filters]
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <file_filter_data>
+        <module_filters/>
+    </file_filter_data>
+</doc>
+[Scripts]
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <script_toolbar_data>
+        <is_active>0</is_active>
+        <all_data/>
+    </script_toolbar_data>
+</doc>
